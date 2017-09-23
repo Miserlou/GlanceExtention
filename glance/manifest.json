@@ -1,0 +1,27 @@
+{
+  "description": "An RSVP Speed-Reading Extention",
+  "manifest_version": 2,
+  "name": "Glance",
+  "version": "0.0.1",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "<all_urls>",
+    "tabs",
+    "notifications",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "glance.js",
+      "page-glancer.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/page-16.png",
+      "32": "icons/page-32.png"
+    }
+  }
+}

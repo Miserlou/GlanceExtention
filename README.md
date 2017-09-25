@@ -13,9 +13,21 @@ blazingly fast." - [norswap](https://news.ycombinator.com/item?id=7349966), Hack
 
 ## Installation
 
-## Status
+### Browsers
 
-Working, but still unpublished.
+* Coming soon!
+
+### Dev
+
+The easiest way to try this out is to:
+
+`npm install web-ext --global`
+
+Then, from the `glance` directory:
+
+`./run.sh`
+
+Easy!
 
 ## Related Projects
 

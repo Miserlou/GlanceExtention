@@ -6,7 +6,10 @@
   "permissions": [
     "tabs",
     "notifications",
-    "activeTab"
+    "activeTab",
+    "webRequest",
+    "webNavigation",
+    "<all_urls>"
   ],
   "background": {
     "scripts": [

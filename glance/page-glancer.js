@@ -44,6 +44,7 @@ function createGlanceBookmarklet(){
         });
     };
 
+    console.log("GONNA LOADDD");
     glanceBookmarkletLoader();
 }
 

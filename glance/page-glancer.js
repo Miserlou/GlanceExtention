@@ -9,7 +9,7 @@ var diffbot_token = '2efef432c72b5a923408e04353c39a7c';
 
 function createGlanceBookmarklet(){
 
-    glanceBookmarkletLoader = function() {
+    var glanceBookmarkletLoader = function() {
         // XXX RawGit's CDN usage:
            // "Since files are not refreshed after the first request,
            // it's best to use a specific tag or commit URL, not a branch URL."
@@ -20,8 +20,8 @@ function createGlanceBookmarklet(){
         //getURL("glance-bookmarklet.html", function(data){
         //getURL("https://rawgithub.com/Miserlou/Glance-Bookmarklet/master/glance-bookmarklet.html", function(data){
         // getURL("https://rawgithub.com/Miserlou/Glance-Bookmarklet/dev/glance-bookmarklet.html", function(data){
-        // getURL("http://localhost:8000/glance-bookmarklet.html", function(data){
 
+        // getURL("http://localhost:8000/glance-bookmarklet.html", function(data){
         getURL("https://rawgit.com/Miserlou/GlanceExtention/master/glance/glance-bookmarklet.html", function(data){
 
         // XXX Make sure to replace the commit hash with the wanted one.
